@@ -1,0 +1,21 @@
+1. Write on the difference b/w Document Objects and Window Objects.
+
+	i) REPRESENTATION:
+		Document Objects represents any HTML Document that is loaded in the browser.
+		Window Objects represents browser window or frame that displays the contents of the webpage.
+
+	ii) SCOPE:
+		Document Objects are local to documents, All the tags, elements with attributes in HTML are part of the document.
+		Global objects, functions, and variables of JavaScript are members of the Window Object.
+
+	iii) METHODS:
+		Document Objects provides methods and properties to manipulate the content of the web page, such as adding or removing elements, changing element attributes, handling events, etc.
+		Window Objects encompasses a wide range of properties and methods related to the browser window, such as window.location, window.alert(), window.setTimeout(), etc.
+
+	iV) MODEL:
+		The Document is part of BOM (browser object model) and dom (Document object model)
+		The window is part of BOM, not DOM.
+
+	V) SYNTAX:
+		Syntax to access Document Objects -v"document.propertyname;"
+		Syntax to access Window Objects - "window.propertyname;"
